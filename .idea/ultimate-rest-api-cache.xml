@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="UltimateRestApiCache">
+    <cachedApis>
+      <api method="POST" url="/api/accounts/create" className="com.bigob.accounts.controller.AccountController" methodName="createAccount" moduleName="accounts">
+        <params>
+          <param name="body" value="{&#13;&#10;  &quot;name&quot; : &quot;&quot;,&#13;&#10;  &quot;email&quot; : &quot;&quot;,&#13;&#10;  &quot;mobileNumber&quot; : &quot;&quot;,&#13;&#10;  &quot;accountsDTO&quot; : {&#13;&#10;    &quot;accountNumber&quot; : 0,&#13;&#10;    &quot;branchAddress&quot; : &quot;&quot;,&#13;&#10;    &quot;accountType&quot; : &quot;&quot;&#13;&#10;  }&#13;&#10;}" type="BODY" dataType="CustomerDTO" />
+        </params>
+      </api>
+      <api method="GET" url="/api/accounts/getByMObile" className="com.bigob.accounts.controller.AccountController" methodName="getCustomerByMobileNumber" moduleName="accounts">
+        <params>
+          <param name="mobileNumber" value="" type="QUERY" dataType="String" />
+        </params>
+      </api>
+      <api method="PUT" url="/api/accounts/update" className="com.bigob.accounts.controller.AccountController" methodName="updateCustomer" moduleName="accounts">
+        <params>
+          <param name="body" value="{&#13;&#10;  &quot;name&quot; : &quot;&quot;,&#13;&#10;  &quot;email&quot; : &quot;&quot;,&#13;&#10;  &quot;mobileNumber&quot; : &quot;&quot;,&#13;&#10;  &quot;accountsDTO&quot; : {&#13;&#10;    &quot;accountNumber&quot; : 0,&#13;&#10;    &quot;branchAddress&quot; : &quot;&quot;,&#13;&#10;    &quot;accountType&quot; : &quot;&quot;&#13;&#10;  }&#13;&#10;}" type="BODY" dataType="CustomerDTO" />
+        </params>
+      </api>
+      <api method="DELETE" url="/api/accounts/delete" className="com.bigob.accounts.controller.AccountController" methodName="deleteCustomer" moduleName="accounts">
+        <params>
+          <param name="mobileNumber" value="" type="QUERY" dataType="String" />
+        </params>
+      </api>
+    </cachedApis>
+  </component>
+</project>
